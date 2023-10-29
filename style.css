@@ -1,0 +1,533 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+  /* Estilos para pantallas pequeñas */
+@media (max-width: 420px) {
+
+p{
+    font-weight: 11px;
+    width: auto;
+}
+
+    .tallerescontenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+    .card img {
+        max-width: 100%;
+        height: auto;
+    }
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+    
+      .navbar {
+        width: 100%;
+        text-align: center;
+        
+      }
+    
+      .iconosRedes {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    
+      .tituloContacto {
+        text-align: center;
+        margin-top: 20px;
+      }
+    
+      .formulario {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+      }
+    
+      .form-label,
+      .form-control {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      #info-usuario{
+        
+            width: 90%;
+            margin: 0 auto;
+            padding: 10px;
+          
+      }
+    
+    }
+
+    @media (max-width: 700px) {
+        .opiniones {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0; /* Restablecer el margen a 0 */
+            padding: 0; /* Restablecer el relleno a 0 */
+        }
+    
+        .opinion {
+            text-align: center;
+            max-width: 100%;
+            border: 1px solid #ccc;
+            padding: 10px;
+            clear: both;
+            overflow: hidden;
+            margin: 0; /* Restablecer el margen a 0 */
+        }
+       
+}
+
+
+
+
+/* Estilos para pantallas grandes */
+@media (min-width: 1200px) {
+    .tallerescontenedor {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card {
+        width: 30%;
+        margin-bottom: 0;
+    }
+    .formulario {
+        max-width: auto; /* Ajusta el ancho según tu preferencia o contenido */
+        margin: 0 auto;
+    }
+}
+body {
+
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 151, 16)
+}
+
+h2 {
+    text-align: center;
+    
+    color: rgb(23, 99, 52);
+}
+
+h3 {
+    text-align: center;
+    color: coral;
+
+}
+
+h4 {
+    text-align: center;
+    color: darkgreen;
+    font-style: initial;
+    font-size: 35px;
+
+}
+
+p {
+    color: black;
+    font-style: initial;
+    font-size: 18px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+
+}
+
+li {
+    text-align: left;
+    color: darkgreen;
+
+}
+
+
+ul {
+    text-align: center;
+
+}
+
+.futuroenelplaneta {
+    margin-top: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    background-color: darkgreen;
+    color: white;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+font-size: xx-large;
+    text-align: center;
+}
+
+.navbar-nav{
+    text-align: center;
+    margin-left: 2cm;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+
+/*contenedor del menu*/
+.container-fluid{
+    background-color:rgb(255, 175, 2);
+    color: white; 
+    font-weight: bold;
+   margin: auto;
+   
+}
+
+.navbar-brand{
+    width: 100px; 
+    height: 100px;
+    margin-left: 10px;
+    border-radius: 15px 15px 15px 15px;
+    
+
+}
+
+.article {
+    text-decoration-color: aquamarine;
+
+}
+
+#tit {
+    text-align: center;
+    color: darkgreen
+}
+
+.los {
+
+    color: rgb(11, 184, 77);
+
+
+
+}
+
+#img {
+    display: flex;
+    size: 400px
+}
+
+ul {
+    color: fuchsia
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: blanchedalmond;
+
+
+
+
+}
+
+.caja {
+    border-radius: 12px;
+    border-width: auto;
+
+    border-top: solid 5px;
+    color: darkolivegreen;
+    border-right: solid 5px;
+    color: darkolivegreen;
+    border-bottom: solid 5px;
+    color: darkolivegreen;
+    border-left: solid 5px;
+    color: darkolivegreen;
+    background-color: rgb(255, 160, 105);
+
+}
+
+#home {
+    display: flex;
+    float: center;
+
+}
+
+#media {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.columna-izq {
+    
+    width: 50%;
+    float: left;
+    background-color: rgb(23, 99, 52);
+    font-size: 20px;
+    color: white;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-top: 1cm;
+    padding-bottom: 2.6cm;
+}
+
+.columna-der {
+    width: 50%;
+    float: right;
+    background-color: rgb(8, 148, 71);
+    font-size: 20px;
+    color: white;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+
+}
+
+.ventajasydesventajas{
+    text-align: center;
+}
+
+
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  
+  
+  .image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
+  .h4grid h4{
+    color: rgb(69, 218, 81);
+    display: block;
+    max-width: auto;
+    text-align: center;
+    font-size: 68px;
+    font-family: fantasy;
+    text-shadow: 5px 5px #23640f;
+
+    
+  }
+
+  
+
+
+.microalgafoto {
+   
+   
+   display: block; /* Esto hace que la imagen sea un bloque en línea */
+  margin-left: auto; /* Establece el margen izquierdo a auto */
+  margin-right: auto; /* Establece el margen derecho a auto */
+}
+
+.isla {
+    align-content: center;
+
+}
+
+.table{
+    background-color: rgb(33, 61, 10);
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    text-align: center;
+    
+}
+.tablatexto{
+
+    color: white;
+}
+
+
+.contenidoprincipal{
+    display: flex;
+    text-align: center;
+}
+
+.videoagrovoltaica{
+    text-align: center;
+}
+
+
+.contenedor-imagen {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+   
+
+} 
+
+.card-title{
+
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.pielogo{
+    text-align: center;
+    margin-top: 50%;
+   
+}
+
+
+
+.tituloContacto{
+    margin-top: 1cm;
+}
+.iconosRedes{
+    text-align: center;
+    font-size:xx-large;
+    margin-top: 1cm;
+   
+}
+
+
+
+  .custom-navbar {
+    width: 100%;
+  }
+  
+  .container-fluid {
+    width: 100%;
+  }
+  
+  .navbar-nav {
+    width: 100%;
+}
+
+
+/* Estilos para centrar el menú */
+.custom-navbar {
+    background-color:rgb(255, 175, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .navbar-nav a {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#info-usuario{
+    text-align: center;
+    margin-top: 2cm;
+    background-color:rgb(0, 117, 25);
+    margin-right: 5cm;
+    margin-left: 5cm;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+
+#info-usuario h2{
+    color: white;
+    font-style:italic;
+
+}
+#info-usuario p{
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+
+}
+
+.navbar-toggler-icon{
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+.formulario{
+    background-color: rgb(70, 126, 87);
+     border-radius: 20px 20px 20px 20px;
+     text-align: center;
+     margin-left: 5cm;
+     margin-right: 5cm;
+     color: white;
+ }
+
+ .ol{
+    margin-left: 2cm;
+    margin-right: 2cm;
+ }
+
+ .botonTaller{
+text-align: center;
+
+ }
+
+
+/*opiniones*/
+.opiniones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.opinion {
+    background-color: #054d17a1;
+    border: 1px solid #07701e;
+    padding: 10px;
+    /*width: 30%;*/
+    margin-bottom: 20px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.opinion p {
+    font-size: 17px;
+    font-style: italic;
+    color: white;
+    
+}
+
+.autor {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.videoAlgas{
+    margin-left: 2cm;
+    margin-right: 2cm;
+    text-align: center;
+}
+.contenedorAlgas ul{
+    text-align: center;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+.ejemplosAplicacionMicroalgas ol{
+    text-align: center;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
